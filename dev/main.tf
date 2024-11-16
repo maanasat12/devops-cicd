@@ -1,5 +1,5 @@
 resource "google_storage_bucket" "bucket" {
-  project  = "dl-k8s-dev1cade"
-  name     = "dev-cicd-state"   #Updated bucketname
+  project = "apt-impact-437902-g6"
+  name     = "dev-cicd-state"  
   location = "ASIA-SOUTH1"
 }
