@@ -3,7 +3,7 @@
 terraform {
   required_version = "~> 1.5"
   backend "gcs" {
-    bucket  = "my-unique-bucket-${random_id.bucket_suffix.hex}"
+    bucket  = "tiruvebucket-16112024"
     prefix  = "terraform/dev"
   }
 }
