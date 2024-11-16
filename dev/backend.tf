@@ -3,7 +3,7 @@
 terraform {
   required_version = "~> 1.5"
   backend "gcs" {
-    bucket  = "dev-cicd-state"
+    bucket  = "mt-devcicdbucket"
     prefix  = "terraform/dev"
   }
 }
