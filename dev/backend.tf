@@ -3,7 +3,7 @@
 terraform {
   required_version = "~> 1.5"
   backend "gcs" {
-    bucket  = "apt-impact-437902-g6_mtbucket"
+    bucket  = "my-unique-bucket-${random_id.bucket_suffix.hex}"
     prefix  = "terraform/dev"
   }
 }
