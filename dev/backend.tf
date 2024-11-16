@@ -8,6 +8,7 @@ terraform {
   }
 }
 
+
 provider "google" {
   #project = "apt-impact-437902-g6"
 }
