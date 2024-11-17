@@ -8,3 +8,4 @@ resource "google_storage_bucket" "bucket" {
   location = "ASIA-SOUTH1"
   storage_class = "STANDARD"
 }
+
